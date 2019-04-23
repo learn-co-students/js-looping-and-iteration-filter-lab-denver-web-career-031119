@@ -14,9 +14,3 @@ function matchName(driversArray, nameString) {
         return driver.name.toLowerCase() === nameString.toLowerCase();
     })
 }
-
-function matchName (list, name) {
-    return list.filter(function (driver) {
-      return driver.name.toLowerCase() === name.toLowerCase();
-    });
-  }
